@@ -13,7 +13,7 @@ source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxV
 # Maintainer Note: This script adapts the tteck template for ERPNext v15 installation on Debian 12.
 #                  It excludes local Nginx setup, intended for use with an external proxy like Nginx Proxy Manager.
 
-APP="ERPNext (No Nginx)"
+APP="ERPNext"
 var_tags="erp"
 var_cpu="4"
 var_ram="4096"
